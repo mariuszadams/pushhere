@@ -28,7 +28,7 @@ while ($row = $result->fetch_assoc()) {
     echo "</a></li>\n";
 }
 echo "</ul>\n<br/>\n";
-echo "something new!";
+
 $result->free();
 $mysqli->close();
 
